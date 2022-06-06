@@ -10,6 +10,7 @@ async function apiReq(){
         document.getElementById('alienWorld').innerText = data.homeWorld
         document.getElementById('alienFeatures').innerText = data.features
         document.getElementById('alienFacts').innerText = data.interestingFact
+        document.getElementById('alienExamples').innerText = data.examples
         document.getElementById('alienImage').src = data.image
         document.getElementById('alienCaption').innerText = data.speciesName
     } catch (error){
